@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(0.25turn, #70b7d5, #cfe9bb, #ebc59c);
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.listen{
+    height: 50vh;
+   margin-top: 8vh;
+}
+.speak{
+    height: 50vh;
+    margin-top: 4vh;
+}
+textarea{
+    height: 30vh;
+    width: 50vw;
+    resize: none;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(43, 40, 40);
+    color: rgb(133, 218, 190);
+    padding: 2vmin;
+    font-size: 3vmin;
+}
+button{
+    height: 5vh;
+    width: 12vw;
+    border-radius: 10px;
+    margin-left: 20vw;
+    margin-top: 2vh;
+    color: #e88686;
+    font-size: 3.5vmin;
+    background: linear-gradient(0.25turn, #91c4da, #bccfae, #dcc8b3);
+
+}
+.speakimg{
+    height: 3vh;
+    width: 2vw;
+    position: fixed;
+    left: 45vw;
+    top: 93.5vh;
+}
+.listenimg{
+    height: 3vh;
+    width: 2vw;
+    position: fixed;
+    left: 45vw;
+    top: 45.5vh;
+}
